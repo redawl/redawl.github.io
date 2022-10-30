@@ -4,5 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Hello! I am currently looking for New Grad Software Engineer roles for late December 2022!
+<br/>
+I am currently attending Portland State University full-time towards a Bachelor of Science in Computer Science, and am expecting to graduate in December 2022.
+
+
