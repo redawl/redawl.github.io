@@ -4,13 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 ### Hi, my name is Eli (he/him/his). 👋
-I am interning at Jama Software as a Software Engineer, and I'm a Computer Science student at Portland State University.<br/>
+I am a Junior Java Dev at Pivotal ITS, a subcontractor for the VA.<br/>
 
-**I am looking for interesting Software Engineering roles for when I graduate in December.**
 ---
-My academic interests are mostly programming and mathematics, but I've also been known to dabble in Economics, as well as Astronomy.
+When I am not coding, I can be found reading, walking around Portland parks, or fiddling with my new toy (Airspy HF+ Discovery)
 ### - 🔭 I’m currently working on ...
-**Completing My B.S. in Computer Science (Last term, woo!)**
+**Studying for a HAM License**
 
 [Learning the Spring Framework](https://spring.io/)
 
