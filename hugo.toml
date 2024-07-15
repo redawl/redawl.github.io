@@ -10,7 +10,7 @@ theme = 'hello-friend-ng'
     dateformNumTime = "2006-01-02 15:04"
 
     # Subtitle for home
-    homeSubtitle = "A simple and beautiful blog"
+    homeSubtitle = ""
 
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
@@ -19,10 +19,10 @@ theme = 'hello-friend-ng'
     enableSharingButtons = false
 
     # Show a global language switcher in the navigation bar
-    enableGlobalLanguageMenu = true
+    enableGlobalLanguageMenu = false
 
     # Metadata mostly used in document's head
-    description = "My new homepage or blog"
+    description = "Eli Burch's Blog/Homepage"
     keywords = "homepage, blog"
     images = [""]
 
@@ -34,12 +34,12 @@ theme = 'hello-friend-ng'
 [languages]
     [languages.en]
         title = "Eli Burch"
-        keywords = ""
         copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-        readOtherPosts = "Read other posts"
 
     [languages.en.params]
         subtitle  = "Assortment of stuff"
+        readOtherPosts = "Read other posts"
+        keywords = ""
 
     [languages.en.params.logo]
         logoText = "Eli Burch (redawl)"
@@ -59,4 +59,8 @@ theme = 'hello-friend-ng'
             identifier = "hardware-hacking"
             name       = "Hardware Hacking"
             url        = "/hardware-hacking"
+        [[menu.main]]
+            identifier = "projects"
+            name       = "Projects"
+            url        = "/projects"
 
