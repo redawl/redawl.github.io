@@ -47,7 +47,7 @@ theme = 'hello-friend-ng'
 
     [[params.social]]
         name = "linkedin"
-        url  = "https://www.linkedin.com/eli-burch"
+        url  = "https://www.linkedin.com/in/eli-burch/"
 
 [languages]
     [languages.en]
