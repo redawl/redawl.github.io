@@ -4,19 +4,19 @@ date = 2024-07-14T09:58:51-07:00
 draft = true
 +++
 
-The target for this project is a Frontier Optical Network Terminal, Model FOG421. The initial goal was to dump the firmware and obtain a root shell, but I ended up going much farther. 
+The target for this project was a Frontier Optical Network Terminal, Model FOG421. The initial goal was to dump the firmware and obtain a root shell, but I ended up going much farther. 
 
 ### 1. Hardware analysis
 
 ![](https://raw.githubusercontent.com/redawl/firmware-dumps/main/frontier-FOG421/images/inside.jpg)
 
-The most interesting I see when I looked inside was some kind of header with 5 pins in the bottom right. This is unusual, since I am used to seeing 4 pin headers on modems in the past. 
+The most interesting thing I saw when I looked inside was some kind of header with 5 pins in the bottom right. This was unusual, since I am used to seeing 4 pin headers on modems in the past. 
 
 With a little dinking around, I was able to determine that the middle pin was ground, so I hooked up my Logic analyzer to the pins, making sure to connect the ground pins correctly. I then powered on the ONT. 
 
 [[ Image here ]]
 
-I see lots of activity on pin 1, which means it's is probably the TX pin, if we are dealing with UART. I added an Async Serial analyzer to pin1, setting the baud rate to 115200, which in my experience it the most common rate, so it's a good first guess. Leaving everything else as default, I applied the analyzer, and we see U-Boot!
+I saw lots of activity on pin 1, which means it's probably the TX pin, if we are dealing with UART. I added an Async Serial analyzer to pin1, setting the baud rate to 115200, which in my experience it the most common rate, so it's a good first guess. Leaving everything else as default, I applied the analyzer, and we see U-Boot output!
 
 ### 2. Exploring the shell
 

@@ -12,6 +12,9 @@ theme = 'hello-friend-ng'
     # Subtitle for home
     homeSubtitle = ""
 
+    # Background image
+    # backgroundImage = "images/background.jpg"
+
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
 
@@ -20,6 +23,9 @@ theme = 'hello-friend-ng'
 
     # Show a global language switcher in the navigation bar
     enableGlobalLanguageMenu = false
+
+    # Allow user to change their theme
+    enableThemeToggle = true
 
     # Metadata mostly used in document's head
     description = "Eli Burch's Blog/Homepage"
@@ -30,6 +36,18 @@ theme = 'hello-friend-ng'
         category = "blog"
         tag      = "tags"
         series   = "series"
+
+    [[params.social]]
+        name = "email"
+        url  = "mailto:eli.burch@burchbytes.com"
+
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/redawl"
+
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://www.linkedin.com/eli-burch"
 
 [languages]
     [languages.en]
@@ -42,7 +60,8 @@ theme = 'hello-friend-ng'
         keywords = ""
 
     [languages.en.params.logo]
-        logoText = "Eli Burch (redawl)"
+        logoMark = "burchbytes.com ~ #"
+        logoText = " "
         logoHomeLink = "/"
     # or
     #
