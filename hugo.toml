@@ -13,7 +13,7 @@ theme = 'hello-friend-ng'
     homeSubtitle = ""
 
     # Background image
-    # backgroundImage = "images/background.jpg"
+    backgroundImage = "images/background.jpg"
 
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
